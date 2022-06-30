@@ -17,10 +17,11 @@
 body {
 	width: 100vw;
 	height: 100vh;
-	background-color: var(--body-color);
+	background-color: var(--secondary-body-color);
 }
 /* nav */
 nav {
+	background-color: var(--body-color);
 	width: 100vw;
 	height: 120px;
 	padding: 20px;
@@ -29,22 +30,23 @@ nav {
 	justify-content: center;
 	font-family: var(--head-font);
 	font-size: 2rem;
-	box-shadow: 0px 10px 20px #9b9c9c;
+	box-shadow: 0px 5px 20px #9b9c9cb6;
 }
 nav > span {
 	padding: 10px;
 }
 
 .nav__logo {
-	color: var(--secondary-body-color);
+	color: var(--tertiary-body-color);
 	font-size: 2.75rem;
 }
 .nav__title {
+	margin-right: 10px;
 	color: var(--accent-color);
 }
 .nav__line {
 	padding: 0;
-	width: 3px;
+	width: 5px;
 	height: 80px;
 	background-color: var(--secondary-body-color);
 	border-radius: 3px;
@@ -52,9 +54,60 @@ nav > span {
 	margin-block: auto;
 }
 .nav__about {
+	border-radius: 20px;
 	color: var(--secondary-body-color);
+	transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
+}
+.nav__about:hover {
+	background-color: var(--secondary-body-color);
+	color: var(--body-color);
+
+	transition: background-color 250ms ease-in-out, color 250ms ease-in-out;
 }
 .nav__git {
-	color: var(--secondary-body-color);
+	padding: 3px 5px;
+	margin-inline: 10px 20px;
+	border-radius: 16px;
 	font-size: 2.75rem;
+	transition: background-color 250ms ease-in-out;
+}
+.nav__git:hover {
+	background-color: var(--secondary-body-color);
+
+	transition: background-color 250ms ease-in-out;
+}
+
+.nav__git a {
+	transition: color 250ms ease-in-out;
+	color: var(--secondary-body-color);
+}
+.nav__git a:hover {
+	transition: color 250ms ease-in-out;
+	color: var(--body-color);
+}
+
+/* content */
+
+.result--container {
+	width: 100vw;
+	padding: 50px;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.item {
+	width: 500px;
+	background-color: var(--body-color);
+	margin-inline: 30px;
+}
+
+.text__head {
+	color: var(--accent-color);
+	font-family: var(--head-font);
+}
+.text__p {
+	color: var(--tertiary-body-color);
+	font-family: var(--body-font);
 }
