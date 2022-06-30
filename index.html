@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Titan+One&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- nav bar -->
+		<nav>
+			<span class="nav__logo"><i class="fa-solid fa-paw"></i></span>
+			<span class="nav__title">Random Animals</span>
+			<span class="nav__line"></span>
+			<span class="nav__about">About</span>
+			<span class="nav__git"><i class="fa-brands fa-github"></i></span>
+		</nav>
+
+		<!-- container -->
+		<div class="result--container">
+			<div class="item result__cat">
+				<div class="result__item" id="cat-result"></div>
+				<div class="text">
+					<h3 class="text__head">Man's Ruler</h3>
+					<p class="text__p">tis but a slave to a cat</p>
+					<input
+						type="button"
+						class="result__btn"
+						id="cat-btn"
+						value="random cat"
+					/>
+				</div>
+			</div>
+			<div class="item result__dog">
+				<div class="result__item" id="dog-result"></div>
+				<div class="text">
+					<h3 class="text__head">Man's Best Friend</h3>
+					<p class="text__p">dogs are cool</p>
+					<input
+						type="button"
+						class="result__btn"
+						id="dog-btn"
+						value="random dog"
+					/>
+				</div>
+			</div>
+		</div>
+
+		<!-- scripts -->
+		<script src="./script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/edf31f984a.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

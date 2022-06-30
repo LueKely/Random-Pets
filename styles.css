@@ -1,0 +1,31 @@
+:root {
+	/* font */
+	--head-font: 'Titan One', cursive;
+	--body-font: 'Indie Flower', cursive;
+	/* color */
+	--body-color: #e3fbf4;
+	--secondary-body-color: #62a5e1;
+	--tertiary-body-color: #ac8660;
+	--accent-colr: #63091b;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background-color: var(--body-color);
+}
+/* nav */
+nav {
+	height: 120px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: var(--head-font);
+	font-size: 2rem;
+}
