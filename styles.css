@@ -6,7 +6,7 @@
 	--body-color: #e3fbf4;
 	--secondary-body-color: #62a5e1;
 	--tertiary-body-color: #ac8660;
-	--accent-colr: #63091b;
+	--accent-color: #63091b;
 }
 
 * {
@@ -21,6 +21,7 @@ body {
 }
 /* nav */
 nav {
+	width: 100vw;
 	height: 120px;
 	padding: 20px;
 	display: flex;
@@ -28,4 +29,32 @@ nav {
 	justify-content: center;
 	font-family: var(--head-font);
 	font-size: 2rem;
+	box-shadow: 0px 10px 20px #9b9c9c;
+}
+nav > span {
+	padding: 10px;
+}
+
+.nav__logo {
+	color: var(--secondary-body-color);
+	font-size: 2.75rem;
+}
+.nav__title {
+	color: var(--accent-color);
+}
+.nav__line {
+	padding: 0;
+	width: 3px;
+	height: 80px;
+	background-color: var(--secondary-body-color);
+	border-radius: 3px;
+	margin-right: auto;
+	margin-block: auto;
+}
+.nav__about {
+	color: var(--secondary-body-color);
+}
+.nav__git {
+	color: var(--secondary-body-color);
+	font-size: 2.75rem;
 }
