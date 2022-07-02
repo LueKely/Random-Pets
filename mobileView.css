@@ -1,0 +1,49 @@
+@media screen and (max-width: 700px) {
+	nav {
+		height: 80px;
+		font-size: 1rem;
+		padding: 10px;
+		margin-bottom: 50px;
+	}
+	nav > span {
+		padding: 5px;
+	}
+	.nav__logo {
+		font-size: 2rem;
+	}
+	.nav__title {
+		margin-right: 5px;
+	}
+	.nav__line {
+		width: 3px;
+		height: 50px;
+	}
+
+	.nav__git {
+		font-size: 2rem;
+	}
+
+	.result--container {
+		padding: 5px;
+	}
+	.result--container .item:first-child {
+		margin-bottom: 10px;
+	}
+	.item {
+		width: 80vw;
+	}
+
+	.result__item {
+		width: 80vw;
+	}
+	.result__img {
+		width: 80vw;
+	}
+	.text {
+		height: auto;
+	}
+
+	footer {
+		width: 100vw;
+	}
+}
