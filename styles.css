@@ -105,6 +105,7 @@ nav > span {
 	width: 500px;
 
 	margin-inline: 30px;
+	margin-bottom: 10px;
 }
 .result__item {
 	height: 300px;
