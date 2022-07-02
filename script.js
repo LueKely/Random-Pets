@@ -47,3 +47,12 @@ function showDogFact() {
 		});
 	});
 }
+
+function showAll() {
+	showCatPic();
+	showCatFact();
+	showDogPic();
+	showDogFact();
+}
+
+showAll();

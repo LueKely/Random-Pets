@@ -157,3 +157,19 @@ nav > span {
 .result__btn:active {
 	transform: scale(0.98);
 }
+/* footer */
+
+footer {
+	text-align: center;
+	width: 500px;
+	height: 50px;
+	font-size: 1.4rem;
+	margin: auto;
+	font-family: var(--body-font);
+	color: var(--body-color);
+}
+
+footer a {
+	color: #63091b;
+	text-decoration: none;
+}
